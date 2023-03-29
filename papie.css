@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.4;
+}
+
+.highlight{
+    color: rgb(22, 110, 22);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    z-index: 1;
+    padding: 10px;
+  }
+
+#navbar h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 60%;
+  }
+  
+  #navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 0.75rem;
+    margin: 1px;
+  }
+  
+  #navbar ul li a:hover {
+    background: blue;
+    border-radius: 5px;
+  }
+
+#container{
+    background: url('./showcase.jpg') no-repeat;
+    height: 100vh;
+    padding: 10px;
+    top: 0;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+#container h1{
+    font-size: 70px;
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn{
+  background-color: green;
+  width: 10%;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+#what{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+#what h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#what #content {
+  display: flex;
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+#what #content h3{
+  font-size: 20px;
+}
+
+#what #content p{
+  font-size: 15px;
+  margin-right: 15px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#who{
+  width: 100%;
+  display: flex;
+  background-color: #333;
+}
+
+#who #left{
+  width: 50%;
+  height: auto;
+}
+
+#who #left img{
+  width: 100%;
+  flex: 1;
+}
+
+#who #right{
+  width: 50%;
+  padding: 20px;
+  background-color: #333;
+}
+
+#who h1{
+  font-size: 30px;
+  color: white;
+}
+
+#who p{
+  color: white;
+  padding: 10px;
+}
+
+#who h3{
+  color: white;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#who .names{
+  list-style: none;
+  color: #ffffff;
+}
+
+#who li{
+  display: block;
+  font-size: 17px;
+  border-bottom: 2px solid black;
+  margin: 10px;
+}
+#client{
+  padding: 10px;
+}
+
+#client h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#client #partner{
+  padding: 20px;
+  display: flex;
+}
+
+#client #partner img{
+  width: 40%;
+  margin: auto;
+  display: block;
+
+}
+
+#contact{
+  color: #ffffff;
+  width: 100%;
+  display: inline-block;
+}
+
+#contact form{
+  width: 40%;
+  padding: 20px;
+  background-color: #93cb52;
+}
+
+#contact #map{
+  width: 60%;
+  float: right;
+  background-color: red;
+}
+
+#contact #map iframe{
+  width: 100%;
+  margin: auto;
+}
+
+footer{
+  width: 100%;
+  padding: 30px;
+  color: #ffffff;
+  background-color: #333;
+  text-align: center;
+}
